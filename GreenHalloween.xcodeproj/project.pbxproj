@@ -11,6 +11,15 @@
 		C0F5185D28FB268700051854 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5185C28FB268700051854 /* ContentView.swift */; };
 		C0F5185F28FB268800051854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F5185E28FB268800051854 /* Assets.xcassets */; };
 		C0F5186228FB268800051854 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F5186128FB268800051854 /* Preview Assets.xcassets */; };
+		C0F5186B28FB6EAB00051854 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5186A28FB6EAB00051854 /* SwiftUIView.swift */; };
+		C0F5187028FB7D8D00051854 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = C0F5186F28FB7D8D00051854 /* landmarkData.json */; };
+		C0F5187228FB7DAC00051854 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5187128FB7DAC00051854 /* Landmark.swift */; };
+		C0F5187428FB7FE700051854 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5187328FB7FE700051854 /* ModelData.swift */; };
+		C0F5187628FB836200051854 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5187528FB836200051854 /* LandmarkRow.swift */; };
+		C0F5187828FB899300051854 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5187728FB899300051854 /* LandmarkList.swift */; };
+		C0F5188828FBC6D300051854 /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0F5188728FBC6D300051854 /* home.jpg */; };
+		C0F5188B28FC01E700051854 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = C0F5188A28FC01E700051854 /* SwiftUICharts */; };
+		C0F5188D28FC12D000051854 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5188C28FC12D000051854 /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,14 @@
 		C0F5185C28FB268700051854 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C0F5185E28FB268800051854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0F5186128FB268800051854 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0F5186A28FB6EAB00051854 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		C0F5186F28FB7D8D00051854 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		C0F5187128FB7DAC00051854 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		C0F5187328FB7FE700051854 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		C0F5187528FB836200051854 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		C0F5187728FB899300051854 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		C0F5188728FBC6D300051854 /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpg; sourceTree = "<group>"; };
+		C0F5188C28FC12D000051854 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F5188B28FC01E700051854 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				C0F5185A28FB268700051854 /* GreenHalloweenApp.swift */,
-				C0F5185C28FB268700051854 /* ContentView.swift */,
+				C0F5188428FBB33C00051854 /* Views */,
+				C0F5187328FB7FE700051854 /* ModelData.swift */,
+				C0F5188C28FC12D000051854 /* SampleData.swift */,
+				C0F5187528FB836200051854 /* LandmarkRow.swift */,
+				C0F5187728FB899300051854 /* LandmarkList.swift */,
+				C0F5188728FBC6D300051854 /* home.jpg */,
 				C0F5185E28FB268800051854 /* Assets.xcassets */,
+				C0F5186A28FB6EAB00051854 /* SwiftUIView.swift */,
 				C0F5186028FB268800051854 /* Preview Content */,
 			);
 			path = GreenHalloween;
@@ -63,8 +87,18 @@
 			isa = PBXGroup;
 			children = (
 				C0F5186128FB268800051854 /* Preview Assets.xcassets */,
+				C0F5187128FB7DAC00051854 /* Landmark.swift */,
+				C0F5186F28FB7D8D00051854 /* landmarkData.json */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0F5188428FBB33C00051854 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0F5185C28FB268700051854 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +117,9 @@
 			dependencies = (
 			);
 			name = GreenHalloween;
+			packageProductDependencies = (
+				C0F5188A28FC01E700051854 /* SwiftUICharts */,
+			);
 			productName = GreenHalloween;
 			productReference = C0F5185728FB268700051854 /* GreenHalloween.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +148,9 @@
 				Base,
 			);
 			mainGroup = C0F5184E28FB268700051854;
+			packageReferences = (
+				C0F5188928FC01E700051854 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = C0F5185828FB268700051854 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +165,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F5188828FBC6D300051854 /* home.jpg in Resources */,
 				C0F5186228FB268800051854 /* Preview Assets.xcassets in Resources */,
 				C0F5185F28FB268800051854 /* Assets.xcassets in Resources */,
+				C0F5187028FB7D8D00051854 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +181,12 @@
 			files = (
 				C0F5185D28FB268700051854 /* ContentView.swift in Sources */,
 				C0F5185B28FB268700051854 /* GreenHalloweenApp.swift in Sources */,
+				C0F5187628FB836200051854 /* LandmarkRow.swift in Sources */,
+				C0F5187828FB899300051854 /* LandmarkList.swift in Sources */,
+				C0F5187428FB7FE700051854 /* ModelData.swift in Sources */,
+				C0F5186B28FB6EAB00051854 /* SwiftUIView.swift in Sources */,
+				C0F5187228FB7DAC00051854 /* Landmark.swift in Sources */,
+				C0F5188D28FC12D000051854 /* SampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +385,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0F5188928FC01E700051854 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C0F5188A28FC01E700051854 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0F5188928FC01E700051854 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C0F5184F28FB268700051854 /* Project object */;
 }
